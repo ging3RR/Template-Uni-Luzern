@@ -6,7 +6,7 @@ If you have never used Rmarkdown you will probably not understand most of what i
 
 # Workflow
 
-You can work on everything in RStudio, so there is no need to export graphics, copy code bits or results into a different programm. Also you can write you notes in the same window as you do your Analysis. I know not everyone needs this, but for me I have not been looking back for even 1 second. It is just so much faster and less frustrating.
+You can work on everything in RStudio, so there is no need to export graphics, copy code bits or results into a different programm. Also you can write your notes in the same window as you do your Analysis. I know not everyone needs this, but for me I have not been looking back for even 1 second. It is just so much faster and less frustrating.
 
 # Generating the book
 
