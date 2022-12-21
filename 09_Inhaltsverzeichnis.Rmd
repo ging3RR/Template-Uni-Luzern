@@ -1,0 +1,18 @@
+# Literaturverzeichnis
+
+```{r}
+# use the tag <div id="refs"></div>  under the title. This will make put the list of citations here.
+# after that you can use |newpage to make sure the Appendix goes onto the next page and does not interfere with your citations
+```
+
+<div id="refs"></div> 
+
+\newpage
+
+# (APPENDIX) Appendix {-}
+
+With this header you start your Appendix
+
+# Appendix A
+
+you can get more Appendixes by simply putting a new title.

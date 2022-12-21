@@ -1,0 +1,43 @@
+---
+# this is the YAML Header that RMarkdown and Bookdown use to style the Masterarbeit.
+# There are many customizable options. Check either the Bookdown documentation or google.
+
+output:
+  bookdown::pdf_book:
+    toc: yes #table of contents
+    toc_depth: 3 # how many subtitles are listed in the TOC
+    includes:
+      before_body: tex/frontpage.tex # includes the titlepage, bookdown usually searches for content in the root folder
+      # if you put the tex/ before the file name it will search the subfolder.
+      in_header: tex/preamble.tex # includes styling options, this is optional and it helps when you understand latex (I do not)
+    citation_package: default 
+    pandoc_args: [ "--csl", "springer-vs-author-date.csl" ] # I used a custom citation style, you can download any citation 
+                                                            # style at https://www.zotero.org/styles if you work with Zotero
+    
+bibliography: "references2.bib" # generate a bib file from your zotero and put it into the folder
+link-citations: true # = can you click on the citation 
+
+# basic styling options, use whatever or the metrics you get from your prof
+fontsize: 12pt 
+linestretch: 1.5
+geometry: "left=4cm, right=3cm, top=2.5cm, bottom=2.5cm"
+classoption: twoside # if you print on both sides (to save paper) use this option
+lof: yes # list of figures
+lot: yes # list of tables
+
+
+
+---
+
+```{r setup, include=FALSE}
+# standard knitting options for your code chunks, read more about that in Rmarkdown documentation
+knitr::opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE
+)
+```
+
+
+
+\newpage
