@@ -10,8 +10,8 @@ You can work on everything in RStudio, so there is no need to export graphics, c
 
 # Generating the book
 
-To render the book simply type bookdown::render_book("index.Rmd", "bookdown::pdf_book") into your command line. It will generate the PDF output into the _book folder.
-Bookdown uses the numbering of the files to choose which one to put first (that can also be changed but for me it was fine like that). To create new chapters just create a new .Rmd file and name it with the next highest number.
+To render the book simply type *bookdown::render_book("index.Rmd", "bookdown::pdf_book")* into your command line. It will generate the PDF output into the *_book* folder.
+Bookdown uses the numbering of the files to choose which one to put first (that can also be changed but for me it was fine like that). To create new chapters just create a new *.Rmd* file and name it with the next highest number.
 If you need to get anything that is not in the root folder just add *foldername/* before your filename. 
 
 The structure of this repository or generally how it works to generate the book is not from me. Most of it is from Thea Knowles https://bookdown.org/thea\_knowles/dissertating\_rmd\_presentation/.
@@ -19,6 +19,6 @@ A lot of important infos are also written down in the bookdown documentation htt
 
 
 
-I hope this makes your life easier and you can use it to write your thesis in RStudio. It was a lot of work for me personally but definitely worth it. And since you do not have to start from the start like I do it should be even easier. Feel free to use, share, develop and change this repo as you like. If it helped you I would be happy to hear about that.
+I hope this makes your life easier and you can use it to write your thesis in RStudio. It was a lot of work for me personally but definitely worth it. And since you do not have to start from the start like I do it should be even easier. Feel free to use, share, develop and change this repo as you like. If it helped you I would be happy to hear about it :D
 
 # Good luck with your thesis!
